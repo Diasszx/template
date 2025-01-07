@@ -15,14 +15,6 @@ class ObjectCreate extends TPage
                 'unidade' => 'un',
             ]);
 
-            $produto = new Produto;
-            $produto->descricao = 'Notebook';
-            $produto->estoque = 10;
-            $produto->preco_veda = 1000;
-            $produto->unidade = 'un';
-            $produto->local_foto = '';
-            $produto->store();
-
             new TMessage('info', 'Produto cadastrado com sucesso');
             
             TTransaction::close();
