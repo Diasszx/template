@@ -1,5 +1,5 @@
 <?php
-class ObjectLoad extends TPage
+class ObjectUpdate extends TPage
 {
     public function __construct()
     {

@@ -1,5 +1,5 @@
 <?php
-class ObjectLoad extends TPage
+class ObjectFind extends TPage
 {
     public function __construct()
     {
