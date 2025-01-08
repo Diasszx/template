@@ -1,5 +1,5 @@
 <?php
-class CollectionLoad extends TPage
+class CollectionBatchUpdate extends TPage
 {
     public function __construct()
     {
